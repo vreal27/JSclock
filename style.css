@@ -6,7 +6,6 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: black;
 }
 #clock {
 	height: 400px;
@@ -25,5 +24,13 @@ body {
 
 #clockinner {
 	margin-top: 158px;
+	margin-bottom: 0;
+	border: solid 1px black;
+}
+
+#colorinner {
+	margin-top: 0;
+	border: solid 1px black;
+	border-top: none;
 }
 
